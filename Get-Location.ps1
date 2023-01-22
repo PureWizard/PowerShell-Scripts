@@ -1,3 +1,4 @@
+#### first run this script then just run this (Get-GeoLocation)#####
 function Get-GeoLocation{
 	try {
 	Add-Type -AssemblyName System.Device #Required to access System.Device.Location namespace
@@ -29,5 +30,3 @@ function Get-GeoLocation{
 }
 
 $Lat, $Lon = Get-GeoLocation
-#### first run this script #####
-#### then just run this (Get-GeoLocation)#####
