@@ -1,3 +1,12 @@
+# Author @Mian-211
+# Important
+# Use this script for results ########
+# Get-BrowserData -Browser "edge" -DataType "history"
+# Get-BrowserData -Browser "edge" -DataType "bookmarks"
+# Get-BrowserData -Browser "chrome" -DataType "history"
+# Get-BrowserData -Browser "chrome" -DataType "bookmarks"
+# Get-BrowserData -Browser "firefox" -DataType "history"
+####
 function Get-BrowserData {
 
     [CmdletBinding()]
@@ -30,14 +39,3 @@ function Get-BrowserData {
         }
     } 
 }
-#########Aditional######
-####Use this script for results ########
-Get-BrowserData -Browser "edge" -DataType "history"
-
-Get-BrowserData -Browser "edge" -DataType "bookmarks"
-
-Get-BrowserData -Browser "chrome" -DataType "history"
-
-Get-BrowserData -Browser "chrome" -DataType "bookmarks"
-
-Get-BrowserData -Browser "firefox" -DataType "history"
