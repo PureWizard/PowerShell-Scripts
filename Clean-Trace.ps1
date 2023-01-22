@@ -1,6 +1,6 @@
 function Clean-Trace { 
 
-# empty temp folder
+# empty temp folder After run this script then just run Clean-Trace and you are good to go 
 rm $env:TEMP\* -r -Force -ErrorAction SilentlyContinue
 
 # delete run box history
