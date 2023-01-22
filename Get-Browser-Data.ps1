@@ -31,7 +31,7 @@ function Get-BrowserData {
     } 
 }
 #########Aditional######
-
+####Use this script for results ########
 Get-BrowserData -Browser "edge" -DataType "history"
 
 Get-BrowserData -Browser "edge" -DataType "bookmarks"
